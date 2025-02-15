@@ -35,6 +35,9 @@ body {
 .yes-btn:hover{
     background-color: Green;
 }
+.yes-btn:active{
+    background-color: Green;
+}
 
 .yes-btn-1{
     background-color: #e75480;
@@ -49,6 +52,9 @@ body {
     text-decoration: none;
 }
 .yes-btn-1:hover{
+    background-color: Green;
+}
+.yes-btn-1:active{
     background-color: Green;
 }
 
@@ -67,6 +73,9 @@ body {
 .no-btn:hover{
     background-color: red;
 }
+.no-btn:active{
+    background-color: red;
+}
 .buttons {
     display: flex;
     justify-content: center;
@@ -76,4 +85,8 @@ body {
 }
 .container{  
     padding: 150px;
+}
+
+.container-yes{
+    color: #e75480;
 }
